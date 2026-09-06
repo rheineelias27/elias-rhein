@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+
+# Nur docs/ wird zu GitHub gepusht (Pages-Seite).
+# Diese Verzeichnisse/Dateien bleiben lokal und werden nicht versioniert:
+/brand/
+/business/
+/character/
+/legal/
+/n8n/
+/ops/
+/README.md
+/elias-weitere-schritte.txt
+/.env.example
